@@ -1,18 +1,8 @@
-# DSinfo2011 *Solutions*
-
-## Exercise : 1
-
-a) n = 2 , k = 3
-
-b) 0  1
-
-## Exercise : 2
-
-a)
-
-```cpp
-int main() {
-  int i=0,n=10,input=0,array[10],X=0;
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i=0,n=10,input=0,array[10],X=0;
     bool found = false;
     cout<<"Enter 10 inputs "<<endl;
 
@@ -27,21 +17,21 @@ int main() {
     cin>>X;
     for(;i<n;i++)
     {  
-
+     
      if( array[i] == X)
      {
          found=true;
          cout<<"YES";
      }
+
     }
     if(!found)
     {
         cout<<"NO";
     }
-
+    
 
     cout<<endl;
-    }
-```
 
-b)
+    return 0;
+}
