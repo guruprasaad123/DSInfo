@@ -89,7 +89,6 @@ for(int i=0;i<n;i++)
 
 return (sum/n);
 }
-
 ```
 
 ## Example 3
@@ -104,8 +103,6 @@ a)
  }
 ```
 
-
-
 b) 
 
 ```
@@ -114,6 +111,21 @@ b)
 2 1
 ```
 
+## Exercise : 4
 
+a )
+
+```
+#include <iostream>
+ int main()
+ {
+ int a =2;
+ int * pb = &a;
+ (*pb) ++; /* Changing the address i.e referencing the value of a ,
+  so o/p is incremented as result */
+
+ std::cout << a << std::endl;
+ }
+```
 
 
