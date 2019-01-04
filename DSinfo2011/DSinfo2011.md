@@ -44,4 +44,40 @@ int main() {
     }
 ```
 
-b)
+b) 
+
+```
+
+int main()
+ {
+ int n=0;
+ cin>>n;
+ cout<< "sumeneto = " <<sumeneto(n)<<endl;
+ }
+ 
+ int sumeneto(int n)
+
+ {
+
+  
+    if(n==0)
+    {
+        return 0;
+    }
+    else if(n==1)
+    {
+       return 1; 
+    }
+    else
+    {
+       return ( n + sumeneto(n-1) );
+    }
+    
+}
+
+
+
+
+```
+
+
