@@ -92,4 +92,28 @@ return (sum/n);
 
 ```
 
+## Example 3
+
+a)
+
+```cpp
+ void foo(const int & a)
+ {
+      a+=1; // cant change value of the const variable 
+    return;
+ }
+```
+
+
+
+b) 
+
+```
+1 2
+1 2
+2 1
+```
+
+
+
 
