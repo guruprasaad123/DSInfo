@@ -48,18 +48,10 @@ b)
 
 ```
 
-int main()
- {
- int n=0;
- cin>>n;
- cout<< "sumeneto = " <<sumeneto(n)<<endl;
- }
- 
- int sumeneto(int n)
 
- {
+int sumeneto(int n)
+{
 
-  
     if(n==0)
     {
         return 0;
@@ -72,11 +64,31 @@ int main()
     {
        return ( n + sumeneto(n-1) );
     }
-    
+
 }
 
+int main()
+{
+    int n=0;
+    cin>>n;
+    cout<< "sumeneto = " <<sumeneto(n)<<endl;
+}
+```
 
+3)
 
+```cpp
+
+double mean(int *val,int n)
+{
+  int sum=0;
+for(int i=0;i<n;i++)
+{
+ sum+=val[i];
+}
+
+return (sum/n);
+}
 
 ```
 
